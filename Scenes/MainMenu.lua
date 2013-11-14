@@ -1,6 +1,8 @@
 local storyboard = require("storyboard")
 local physics = require "physics"
 local widget = require( "widget" )
+
+-- Level images and graphics
 local levelicon = require("LevelIcon")
 local levelSprites = require("levelSprites")
 
@@ -211,4 +213,5 @@ Runtime:addEventListener( "key", onKeyEvent )
 Runtime:addEventListener( "inputDevicestatus", onInputdeviceStatusChanged )
 
 return scene
+
 
